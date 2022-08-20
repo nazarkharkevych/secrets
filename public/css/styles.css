@@ -1,0 +1,60 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+  float: left;
+  width: 90%;
+}
+
+.delete {
+  width: 110%;
+  margin-top: 2rem;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+i.uncheked {
+  transform: scale(1.5);
+  width: 50px;
+  margin-top: 10px;
+}
+
+i.uncheked:active {
+  text-decoration: line-through;
+}
+
+.check {
+  margin-top: 12px;
+  grid-template-columns: 1em auto;
+  gap: 4rem;
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.header {
+  position: absolute;
+}
+
+.login-google {
+  position: relative;
+  padding-left: 50rem;
+  margin-bottom: 1%;
+  padding-top: 8px;
+}
+
+.social-block {
+  margin-bottom: 3px;
+}
